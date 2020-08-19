@@ -229,6 +229,7 @@ class TextInput extends Component {
      * An array of validation errors
      */
     errors: PropTypes.array,
+    hideClear: PropTypes.bool,
     /**
      * Enable when a input's value has been validated
      */
@@ -323,6 +324,7 @@ class TextInput extends Component {
 
   static defaultProps = {
     hasBeenValidated: false,
+    hideClear: false,
     iconClearAccessibilityText: "Clear",
     isOnDarkBackground: false,
     isReadOnly: false,
@@ -484,9 +486,9 @@ class TextInput extends Component {
   }
 
   showClearButton() {
-    const { isReadOnly } = this.props;
+    const { hideClear, isReadOnly } = this.props;
     const { isInputFocused, isButtonFocused } = this.state;
-    return ((this.getValue() && isInputFocused) || (this.getValue() && isButtonFocused)) && !isReadOnly;
+    return ((this.getValue() && isInputFocused) || (this.getValue() && isButtonFocused)) && !isReadOnly && !hideClear;
   }
 
   renderClearButton() {
