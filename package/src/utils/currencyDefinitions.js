@@ -93,7 +93,8 @@ export default {
     enabled: false,
     format: "%s%v",
     symbol: "$",
-    scale: 0
+    scale: 0,
+    showCents: true
   },
   BMD: {
     enabled: false,
@@ -138,7 +139,8 @@ export default {
     symbol: "p.",
     decimal: ",",
     thousand: ".",
-    scale: 0
+    scale: 0,
+    showCents: true
   },
   BZD: {
     enabled: false,
@@ -217,7 +219,8 @@ export default {
     enabled: false,
     format: "%v %s",
     symbol: "Fdj",
-    scale: 0
+    scale: 0,
+    showCents: true
   },
   DKK: {
     enabled: false,
@@ -311,7 +314,8 @@ export default {
     enabled: false,
     format: "%v %s",
     symbol: "FG",
-    scale: 0
+    scale: 0,
+    showCents: true
   },
   GTQ: {
     enabled: false,
@@ -361,7 +365,8 @@ export default {
     enabled: false,
     format: "%s%v",
     symbol: "¥",
-    scale: 0
+    scale: 0,
+    showCents: true
   },
   KWD: {
     enabled: false,
@@ -372,7 +377,8 @@ export default {
     enabled: false,
     format: "%s%v",
     symbol: "₩",
-    scale: 0
+    scale: 0,
+    showCents: true
   },
   KZT: {
     enabled: false,
@@ -492,7 +498,8 @@ export default {
     enabled: false,
     format: "%v %s",
     symbol: "CFA",
-    scale: 0
+    scale: 0,
+    showCents: true
   },
   XCD: {
     enabled: false,
@@ -503,6 +510,7 @@ export default {
     enabled: false,
     format: "%v %s",
     symbol: "CFA",
-    scale: 0
+    scale: 0,
+    showCents: true
   }
 };
