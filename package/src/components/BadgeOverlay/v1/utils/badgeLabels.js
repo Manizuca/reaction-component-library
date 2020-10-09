@@ -1,8 +1,8 @@
 const BADGE_LABELS = {
-  BACKORDER: "Backorder",
+  BACKORDER: "Pedido Pendiente",
   BESTSELLER: "Best Seller",
-  LOW_QUANTITY: "Low Inventory",
-  SOLD_OUT: "Sold Out",
-  SALE: "Sale"
+  LOW_QUANTITY: "Pocas Unidades",
+  SOLD_OUT: "Agotado",
+  SALE: "OFERTA"
 };
 export default BADGE_LABELS;

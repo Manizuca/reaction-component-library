@@ -1,6 +1,6 @@
 const STATUS_LABELS = {
-  BACKORDER: "Backordered - ships when available",
-  LOW_QUANTITY: "Low Inventory",
-  SOLD_OUT: "Out of stock"
+  BACKORDER: "Pedido Pendiende - Enviado según disponibilidad",
+  LOW_QUANTITY: "Pocas unidades",
+  SOLD_OUT: "Sin disponibilidad"
 };
 export default STATUS_LABELS;

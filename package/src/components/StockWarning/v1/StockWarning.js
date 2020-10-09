@@ -31,7 +31,7 @@ class StockWarning extends Component {
 
     if (!isLowInventoryQuantity) return null;
 
-    return <Span className={className}>Only {inventoryQuantity} in stock</Span>;
+    return <Span className={className}>Solo {inventoryQuantity} en stock</Span>;
   }
 }
 
